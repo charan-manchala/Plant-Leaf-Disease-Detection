@@ -1,0 +1,10 @@
+{
+  "Tomato_Early_blight": "Remove infected leaves, apply recommended fungicide, and improve air circulation.",
+  "Tomato_Late_blight": "Avoid overhead watering, remove infected parts, and use copper-based fungicide.",
+  "Tomato_healthy": "No disease detected. Maintain regular watering and nutrient care.",
+  "Potato_Early_blight": "Use crop rotation, remove affected leaves, and apply protective fungicide.",
+  "Potato_Late_blight": "Remove infected plants immediately and use suitable fungicide.",
+  "Potato_healthy": "No disease detected. Continue proper plant care.",
+  "Pepper_Bacterial_spot": "Use disease-free seeds, avoid leaf wetness, and apply copper-based sprays.",
+  "Pepper_healthy": "No disease detected. Maintain good field hygiene and regular care."
+}

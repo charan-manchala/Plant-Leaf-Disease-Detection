@@ -1,0 +1,8 @@
+venv/
+.venv/
+dataset/
+outputs/
+notebooks/
+.vscode/
+__pycache__/
+*.pyc
