@@ -5,7 +5,7 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-BASE_DIR = r"C:\Users\chara\OneDrive\Desktop\plant_disease_project"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TRAIN_DIR = os.path.join(BASE_DIR, "dataset", "train")
 VAL_DIR = os.path.join(BASE_DIR, "dataset", "val")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
@@ -73,7 +73,7 @@ history = model.fit(
     epochs=EPOCHS
 )
 
-model.save(os.path.join(MODEL_DIR, "disease_model.h5"))
+model.save(os.path.join(MODEL_DIR, "disease_model.keras"))
 
 plt.figure(figsize=(8, 5))
 plt.plot(history.history["accuracy"], label="Train Accuracy")

@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "disease_model.h5")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "disease_model.keras")
 CLASS_PATH = os.path.join(BASE_DIR, "models", "class_indices.json")
 CURE_PATH = os.path.join(BASE_DIR, "data", "cure.json")
 PLANT_TYPE_PATH = os.path.join(BASE_DIR, "data", "plant_type.json")
