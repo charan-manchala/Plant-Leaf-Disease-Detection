@@ -1,10 +1,9 @@
 import os
 import json
 import numpy as np
-from PIL import Image
 import tensorflow as tf
 
-BASE_DIR = r"C:\Users\chara\OneDrive\Desktop\plant_disease_project"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 MODEL_PATH = os.path.join(BASE_DIR, "models", "disease_model.h5")
 CLASS_PATH = os.path.join(BASE_DIR, "models", "class_indices.json")
 CURE_PATH = os.path.join(BASE_DIR, "data", "cure.json")
